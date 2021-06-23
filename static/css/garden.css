@@ -79,7 +79,7 @@
   }
   
   .hero-title {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: var(--ccft-ts-secondary);
     font-weight: 400;
     font-size: 4.75rem;
@@ -116,7 +116,7 @@
   
   .hero-text a {
     box-shadow: 0 4px #fff;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   
@@ -273,3 +273,11 @@
       color: #FFFFFF;
       background-color: #ffffff;
   }
+
+  .signup {
+      background: url('../img/assortedfruit.jpg') no-repeat center center fixed;
+      height: 100%;
+      background-size: cover; 
+      overflow: hidden;
+  }
+

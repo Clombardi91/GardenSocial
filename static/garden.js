@@ -178,3 +178,4 @@ const animateHide = (state, complete) => {
     translateY: ['0', '-3rem'],
   }, '-=100');
 })();
+
