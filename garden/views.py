@@ -1,9 +1,10 @@
+from django.http import JsonResponse
 from django.shortcuts import render
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.forms import UserCreationForm
 from django.utils import timezone
 from django.shortcuts import render, get_object_or_404
 from django.shortcuts import redirect
-from django.contrib.auth import login, authenticate
-from django.contrib.auth.forms import UserCreationForm
 from .forms import SignUpForm
 from django.http import HttpResponse
 
@@ -14,6 +15,13 @@ def index(request):
 
 def about(request):
     return render(request, 'garden/about.html')
+
+def social(request):
+    return render(request, 'garden/social.html')
+    
+
+def gardens(request):
+    return render(request, 'garden/gardens.html')
 
 
 def signup(request):

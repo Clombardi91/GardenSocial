@@ -274,10 +274,6 @@
       background-color: #ffffff;
   }
 
-  .signup {
-      background: url('../img/assortedfruit.jpg') no-repeat center center fixed;
-      height: 100%;
-      background-size: cover; 
-      overflow: hidden;
-  }
-
+header {
+    color: white;
+}

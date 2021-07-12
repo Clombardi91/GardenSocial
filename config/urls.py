@@ -26,4 +26,7 @@ urlpatterns = [
     path('accounts/', include('registration.backends.simple.urls')),
     url(r'^signup/$', views.signup, name='signup'),
     path('garden/about', views.about, name='about'),
+    path('garden/social', views.social, name='social'),
+    path('garden/gardens', views.gardens, name='gardens'),
+    path ("search", views.social, name="search"),
 ]
